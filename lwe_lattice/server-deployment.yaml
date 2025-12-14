@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lwe-server
+  labels:
+    app: lwe-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lwe-server
+  template:
+    metadata:
+      labels:
+        app: lwe-server
+    spec:
+      containers:
+      - name: lwe-server
+        image: lwe-k8s:latest
+        command: ["python", "main.py", "server"]
+        ports:
+        - containerPort: 65432
+        volumeMounts:
+        - mountPath: "/app/server.crt"
+          name: tls-certs
+          subPath: server.crt
+        - mountPath: "/app/server.key"
+          name: tls-certs
+          subPath: server.key
+        - mountPath: "/app/client.crt"
+          name: tls-certs
+          subPath: client.crt
+      volumes:
+      - name: tls-certs
+        secret:
+          secretName: lwe-tls-certs
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lwe-server-service
+spec:
+  selector:
+    app: lwe-server
+  ports:
+    - protocol: TCP
+      port: 65432
+      targetPort: 65432
+  type: ClusterIP

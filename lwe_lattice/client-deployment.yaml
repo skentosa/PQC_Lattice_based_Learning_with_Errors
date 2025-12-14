@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lwe-client
+  labels:
+    app: lwe-client
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lwe-client
+  template:
+    metadata:
+      labels:
+        app: lwe-client
+    spec:
+      containers:
+      - name: lwe-client
+        image: lwe-k8s:latest
+        command: ["python", "main.py", "client"]
+        env:
+        - name: SERVER_ADDRESS
+          value: "lwe-server-service:65432"
+        volumeMounts:
+        - mountPath: "/app/client.crt"
+          name: tls-certs
+          subPath: client.crt
+        - mountPath: "/app/client.key"
+          name: tls-certs
+          subPath: client.key
+        - mountPath: "/app/server.crt"
+          name: tls-certs
+          subPath: server.crt
+      volumes:
+      - name: tls-certs
+        secret:
+          secretName: lwe-tls-certs

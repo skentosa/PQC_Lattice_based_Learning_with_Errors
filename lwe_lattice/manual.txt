@@ -1,0 +1,7 @@
+source venv/bin/activate
+
+python main.py server (Terminal 1)
+
+python main.py client (Terminal 2)
+
+python benchmark_lwe.py (for graphs)

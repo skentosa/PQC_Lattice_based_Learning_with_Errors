@@ -1,0 +1,578 @@
+{
+  "n=64_q=3329_stddev=0.5": {
+    "n": 64,
+    "q": 3329,
+    "stddev": 0.5,
+    "key_gen_time": 7.141923904418945e-05,
+    "encrypt_time": 1.279759407043457e-05,
+    "decrypt_time": 1.6198158264160155e-06,
+    "public_key_size": 23795,
+    "ciphertext_size": 426,
+    "error_rate": 0.481,
+    "memory_usage": 57.25,
+    "security_estimate": {
+      "classical_bits": "~60",
+      "quantum_bits": "~30"
+    }
+  },
+  "n=64_q=3329_stddev=0.75": {
+    "n": 64,
+    "q": 3329,
+    "stddev": 0.75,
+    "key_gen_time": 4.628133773803711e-05,
+    "encrypt_time": 1.2778043746948242e-05,
+    "decrypt_time": 1.4405250549316406e-06,
+    "public_key_size": 23821,
+    "ciphertext_size": 430,
+    "error_rate": 0.461,
+    "memory_usage": 57.25,
+    "security_estimate": {
+      "classical_bits": "~60",
+      "quantum_bits": "~30"
+    }
+  },
+  "n=64_q=3329_stddev=1.0": {
+    "n": 64,
+    "q": 3329,
+    "stddev": 1.0,
+    "key_gen_time": 4.710555076599121e-05,
+    "encrypt_time": 1.2850046157836914e-05,
+    "decrypt_time": 1.4274120330810547e-06,
+    "public_key_size": 23775,
+    "ciphertext_size": 426,
+    "error_rate": 0.115,
+    "memory_usage": 57.25,
+    "security_estimate": {
+      "classical_bits": "~60",
+      "quantum_bits": "~30"
+    }
+  },
+  "n=64_q=7681_stddev=0.5": {
+    "n": 64,
+    "q": 7681,
+    "stddev": 0.5,
+    "key_gen_time": 3.968167304992676e-05,
+    "encrypt_time": 1.2617111206054688e-05,
+    "decrypt_time": 1.4388561248779297e-06,
+    "public_key_size": 24547,
+    "ciphertext_size": 440,
+    "error_rate": 0.407,
+    "memory_usage": 57.25,
+    "security_estimate": {
+      "classical_bits": "~60",
+      "quantum_bits": "~30"
+    }
+  },
+  "n=64_q=7681_stddev=0.75": {
+    "n": 64,
+    "q": 7681,
+    "stddev": 0.75,
+    "key_gen_time": 4.416680335998535e-05,
+    "encrypt_time": 1.2680530548095703e-05,
+    "decrypt_time": 1.4331340789794922e-06,
+    "public_key_size": 24623,
+    "ciphertext_size": 440,
+    "error_rate": 0.092,
+    "memory_usage": 57.25,
+    "security_estimate": {
+      "classical_bits": "~60",
+      "quantum_bits": "~30"
+    }
+  },
+  "n=64_q=7681_stddev=1.0": {
+    "n": 64,
+    "q": 7681,
+    "stddev": 1.0,
+    "key_gen_time": 3.8843631744384765e-05,
+    "encrypt_time": 1.2589931488037109e-05,
+    "decrypt_time": 1.4441013336181642e-06,
+    "public_key_size": 24613,
+    "ciphertext_size": 433,
+    "error_rate": 0.309,
+    "memory_usage": 57.25,
+    "security_estimate": {
+      "classical_bits": "~60",
+      "quantum_bits": "~30"
+    }
+  },
+  "n=64_q=12289_stddev=0.5": {
+    "n": 64,
+    "q": 12289,
+    "stddev": 0.5,
+    "key_gen_time": 5.139040946960449e-05,
+    "encrypt_time": 1.4200687408447265e-05,
+    "decrypt_time": 1.5587806701660157e-06,
+    "public_key_size": 25571,
+    "ciphertext_size": 456,
+    "error_rate": 0.306,
+    "memory_usage": 57.375,
+    "security_estimate": {
+      "classical_bits": "~60",
+      "quantum_bits": "~30"
+    }
+  },
+  "n=64_q=12289_stddev=0.75": {
+    "n": 64,
+    "q": 12289,
+    "stddev": 0.75,
+    "key_gen_time": 5.42292594909668e-05,
+    "encrypt_time": 1.3545036315917968e-05,
+    "decrypt_time": 1.565694808959961e-06,
+    "public_key_size": 25598,
+    "ciphertext_size": 458,
+    "error_rate": 0.452,
+    "memory_usage": 57.375,
+    "security_estimate": {
+      "classical_bits": "~60",
+      "quantum_bits": "~30"
+    }
+  },
+  "n=64_q=12289_stddev=1.0": {
+    "n": 64,
+    "q": 12289,
+    "stddev": 1.0,
+    "key_gen_time": 5.356431007385254e-05,
+    "encrypt_time": 1.3074159622192384e-05,
+    "decrypt_time": 1.4765262603759765e-06,
+    "public_key_size": 25602,
+    "ciphertext_size": 454,
+    "error_rate": 0.434,
+    "memory_usage": 57.375,
+    "security_estimate": {
+      "classical_bits": "~60",
+      "quantum_bits": "~30"
+    }
+  },
+  "n=128_q=3329_stddev=0.5": {
+    "n": 128,
+    "q": 3329,
+    "stddev": 0.5,
+    "key_gen_time": 0.00013378429412841796,
+    "encrypt_time": 2.580118179321289e-05,
+    "decrypt_time": 1.7447471618652343e-06,
+    "public_key_size": 93894,
+    "ciphertext_size": 779,
+    "error_rate": 0.624,
+    "memory_usage": 58.875,
+    "security_estimate": {
+      "classical_bits": "~100",
+      "quantum_bits": "~50"
+    }
+  },
+  "n=128_q=3329_stddev=0.75": {
+    "n": 128,
+    "q": 3329,
+    "stddev": 0.75,
+    "key_gen_time": 0.0001230936050415039,
+    "encrypt_time": 2.8487920761108397e-05,
+    "decrypt_time": 1.9998550415039062e-06,
+    "public_key_size": 93853,
+    "ciphertext_size": 795,
+    "error_rate": 0.164,
+    "memory_usage": 58.875,
+    "security_estimate": {
+      "classical_bits": "~100",
+      "quantum_bits": "~50"
+    }
+  },
+  "n=128_q=3329_stddev=1.0": {
+    "n": 128,
+    "q": 3329,
+    "stddev": 1.0,
+    "key_gen_time": 0.00014133143424987794,
+    "encrypt_time": 2.59857177734375e-05,
+    "decrypt_time": 1.7194747924804687e-06,
+    "public_key_size": 93864,
+    "ciphertext_size": 784,
+    "error_rate": 0.638,
+    "memory_usage": 58.875,
+    "security_estimate": {
+      "classical_bits": "~100",
+      "quantum_bits": "~50"
+    }
+  },
+  "n=128_q=7681_stddev=0.5": {
+    "n": 128,
+    "q": 7681,
+    "stddev": 0.5,
+    "key_gen_time": 9.754729270935058e-05,
+    "encrypt_time": 2.6885271072387695e-05,
+    "decrypt_time": 1.8634796142578125e-06,
+    "public_key_size": 96980,
+    "ciphertext_size": 814,
+    "error_rate": 0.202,
+    "memory_usage": 58.875,
+    "security_estimate": {
+      "classical_bits": "~100",
+      "quantum_bits": "~50"
+    }
+  },
+  "n=128_q=7681_stddev=0.75": {
+    "n": 128,
+    "q": 7681,
+    "stddev": 0.75,
+    "key_gen_time": 9.607696533203125e-05,
+    "encrypt_time": 2.389359474182129e-05,
+    "decrypt_time": 1.6093254089355469e-06,
+    "public_key_size": 97012,
+    "ciphertext_size": 816,
+    "error_rate": 0.276,
+    "memory_usage": 58.875,
+    "security_estimate": {
+      "classical_bits": "~100",
+      "quantum_bits": "~50"
+    }
+  },
+  "n=128_q=7681_stddev=1.0": {
+    "n": 128,
+    "q": 7681,
+    "stddev": 1.0,
+    "key_gen_time": 9.093379974365234e-05,
+    "encrypt_time": 2.4483919143676757e-05,
+    "decrypt_time": 1.6205310821533202e-06,
+    "public_key_size": 97057,
+    "ciphertext_size": 809,
+    "error_rate": 0.617,
+    "memory_usage": 58.875,
+    "security_estimate": {
+      "classical_bits": "~100",
+      "quantum_bits": "~50"
+    }
+  },
+  "n=128_q=12289_stddev=0.5": {
+    "n": 128,
+    "q": 12289,
+    "stddev": 0.5,
+    "key_gen_time": 0.00013913440704345703,
+    "encrypt_time": 2.9851198196411132e-05,
+    "decrypt_time": 1.7704963684082032e-06,
+    "public_key_size": 100942,
+    "ciphertext_size": 841,
+    "error_rate": 0.643,
+    "memory_usage": 58.875,
+    "security_estimate": {
+      "classical_bits": "~100",
+      "quantum_bits": "~50"
+    }
+  },
+  "n=128_q=12289_stddev=0.75": {
+    "n": 128,
+    "q": 12289,
+    "stddev": 0.75,
+    "key_gen_time": 0.0001458570957183838,
+    "encrypt_time": 2.3421049118041992e-05,
+    "decrypt_time": 1.5561580657958985e-06,
+    "public_key_size": 100991,
+    "ciphertext_size": 848,
+    "error_rate": 0.07,
+    "memory_usage": 58.875,
+    "security_estimate": {
+      "classical_bits": "~100",
+      "quantum_bits": "~50"
+    }
+  },
+  "n=128_q=12289_stddev=1.0": {
+    "n": 128,
+    "q": 12289,
+    "stddev": 1.0,
+    "key_gen_time": 0.00014067649841308593,
+    "encrypt_time": 2.9137372970581054e-05,
+    "decrypt_time": 1.7561912536621093e-06,
+    "public_key_size": 101060,
+    "ciphertext_size": 851,
+    "error_rate": 0.338,
+    "memory_usage": 58.875,
+    "security_estimate": {
+      "classical_bits": "~100",
+      "quantum_bits": "~50"
+    }
+  },
+  "n=256_q=3329_stddev=0.5": {
+    "n": 256,
+    "q": 3329,
+    "stddev": 0.5,
+    "key_gen_time": 0.00039719152450561524,
+    "encrypt_time": 9.552669525146485e-05,
+    "decrypt_time": 1.821279525756836e-06,
+    "public_key_size": 373408,
+    "ciphertext_size": 1509,
+    "error_rate": 0.101,
+    "memory_usage": 60.921875,
+    "security_estimate": {
+      "classical_bits": "128",
+      "quantum_bits": "~64"
+    }
+  },
+  "n=256_q=3329_stddev=0.75": {
+    "n": 256,
+    "q": 3329,
+    "stddev": 0.75,
+    "key_gen_time": 0.00041509389877319335,
+    "encrypt_time": 0.00011654925346374512,
+    "decrypt_time": 2.46429443359375e-06,
+    "public_key_size": 373313,
+    "ciphertext_size": 1501,
+    "error_rate": 0.043,
+    "memory_usage": 60.953125,
+    "security_estimate": {
+      "classical_bits": "128",
+      "quantum_bits": "~64"
+    }
+  },
+  "n=256_q=3329_stddev=1.0": {
+    "n": 256,
+    "q": 3329,
+    "stddev": 1.0,
+    "key_gen_time": 0.0005019347667694091,
+    "encrypt_time": 0.00012966537475585937,
+    "decrypt_time": 3.023386001586914e-06,
+    "public_key_size": 373620,
+    "ciphertext_size": 1521,
+    "error_rate": 0.495,
+    "memory_usage": 61.8671875,
+    "security_estimate": {
+      "classical_bits": "128",
+      "quantum_bits": "~64"
+    }
+  },
+  "n=256_q=7681_stddev=0.5": {
+    "n": 256,
+    "q": 7681,
+    "stddev": 0.5,
+    "key_gen_time": 0.00029186868667602537,
+    "encrypt_time": 9.636187553405762e-05,
+    "decrypt_time": 1.8868446350097656e-06,
+    "public_key_size": 385860,
+    "ciphertext_size": 1565,
+    "error_rate": 0.256,
+    "memory_usage": 62.28515625,
+    "security_estimate": {
+      "classical_bits": "128",
+      "quantum_bits": "~64"
+    }
+  },
+  "n=256_q=7681_stddev=0.75": {
+    "n": 256,
+    "q": 7681,
+    "stddev": 0.75,
+    "key_gen_time": 0.0002962865829467773,
+    "encrypt_time": 9.824395179748535e-05,
+    "decrypt_time": 1.913309097290039e-06,
+    "public_key_size": 385768,
+    "ciphertext_size": 1562,
+    "error_rate": 0.555,
+    "memory_usage": 62.17578125,
+    "security_estimate": {
+      "classical_bits": "128",
+      "quantum_bits": "~64"
+    }
+  },
+  "n=256_q=7681_stddev=1.0": {
+    "n": 256,
+    "q": 7681,
+    "stddev": 1.0,
+    "key_gen_time": 0.0002939319610595703,
+    "encrypt_time": 9.817624092102051e-05,
+    "decrypt_time": 1.870870590209961e-06,
+    "public_key_size": 385764,
+    "ciphertext_size": 1568,
+    "error_rate": 0.897,
+    "memory_usage": 62.28515625,
+    "security_estimate": {
+      "classical_bits": "128",
+      "quantum_bits": "~64"
+    }
+  },
+  "n=256_q=12289_stddev=0.5": {
+    "n": 256,
+    "q": 12289,
+    "stddev": 0.5,
+    "key_gen_time": 0.0004998536109924316,
+    "encrypt_time": 9.948587417602539e-05,
+    "decrypt_time": 1.915931701660156e-06,
+    "public_key_size": 401567,
+    "ciphertext_size": 1626,
+    "error_rate": 0.955,
+    "memory_usage": 62.296875,
+    "security_estimate": {
+      "classical_bits": "128",
+      "quantum_bits": "~64"
+    }
+  },
+  "n=256_q=12289_stddev=0.75": {
+    "n": 256,
+    "q": 12289,
+    "stddev": 0.75,
+    "key_gen_time": 0.0004966888427734375,
+    "encrypt_time": 9.477567672729492e-05,
+    "decrypt_time": 1.9071102142333984e-06,
+    "public_key_size": 401792,
+    "ciphertext_size": 1622,
+    "error_rate": 0.994,
+    "memory_usage": 62.40625,
+    "security_estimate": {
+      "classical_bits": "128",
+      "quantum_bits": "~64"
+    }
+  },
+  "n=256_q=12289_stddev=1.0": {
+    "n": 256,
+    "q": 12289,
+    "stddev": 1.0,
+    "key_gen_time": 0.0005033328533172607,
+    "encrypt_time": 9.942030906677247e-05,
+    "decrypt_time": 1.927614212036133e-06,
+    "public_key_size": 401528,
+    "ciphertext_size": 1626,
+    "error_rate": 0.453,
+    "memory_usage": 62.296875,
+    "security_estimate": {
+      "classical_bits": "128",
+      "quantum_bits": "~64"
+    }
+  },
+  "n=512_q=3329_stddev=0.5": {
+    "n": 512,
+    "q": 3329,
+    "stddev": 0.5,
+    "key_gen_time": 0.0015587058067321777,
+    "encrypt_time": 0.00034876203536987307,
+    "decrypt_time": 2.3531913757324217e-06,
+    "public_key_size": 1489525,
+    "ciphertext_size": 2990,
+    "error_rate": 0.948,
+    "memory_usage": 70.48828125,
+    "security_estimate": {
+      "classical_bits": "192",
+      "quantum_bits": "~96"
+    }
+  },
+  "n=512_q=3329_stddev=0.75": {
+    "n": 512,
+    "q": 3329,
+    "stddev": 0.75,
+    "key_gen_time": 0.001589998722076416,
+    "encrypt_time": 0.0003416297435760498,
+    "decrypt_time": 2.265453338623047e-06,
+    "public_key_size": 1490255,
+    "ciphertext_size": 2961,
+    "error_rate": 0.64,
+    "memory_usage": 71.37109375,
+    "security_estimate": {
+      "classical_bits": "192",
+      "quantum_bits": "~96"
+    }
+  },
+  "n=512_q=3329_stddev=1.0": {
+    "n": 512,
+    "q": 3329,
+    "stddev": 1.0,
+    "key_gen_time": 0.0016337642669677734,
+    "encrypt_time": 0.00036214470863342284,
+    "decrypt_time": 2.5122165679931643e-06,
+    "public_key_size": 1488870,
+    "ciphertext_size": 2951,
+    "error_rate": 0.253,
+    "memory_usage": 72.33984375,
+    "security_estimate": {
+      "classical_bits": "192",
+      "quantum_bits": "~96"
+    }
+  },
+  "n=512_q=7681_stddev=0.5": {
+    "n": 512,
+    "q": 7681,
+    "stddev": 0.5,
+    "key_gen_time": 0.0011136422157287597,
+    "encrypt_time": 0.00034921836853027345,
+    "decrypt_time": 2.336263656616211e-06,
+    "public_key_size": 1539131,
+    "ciphertext_size": 3062,
+    "error_rate": 0.733,
+    "memory_usage": 73.7421875,
+    "security_estimate": {
+      "classical_bits": "192",
+      "quantum_bits": "~96"
+    }
+  },
+  "n=512_q=7681_stddev=0.75": {
+    "n": 512,
+    "q": 7681,
+    "stddev": 0.75,
+    "key_gen_time": 0.001057339906692505,
+    "encrypt_time": 0.00036020517349243163,
+    "decrypt_time": 2.572536468505859e-06,
+    "public_key_size": 1539064,
+    "ciphertext_size": 3062,
+    "error_rate": 0.578,
+    "memory_usage": 74.640625,
+    "security_estimate": {
+      "classical_bits": "192",
+      "quantum_bits": "~96"
+    }
+  },
+  "n=512_q=7681_stddev=1.0": {
+    "n": 512,
+    "q": 7681,
+    "stddev": 1.0,
+    "key_gen_time": 0.0010709154605865478,
+    "encrypt_time": 0.00035911417007446287,
+    "decrypt_time": 2.302408218383789e-06,
+    "public_key_size": 1539119,
+    "ciphertext_size": 3059,
+    "error_rate": 0.997,
+    "memory_usage": 74.74609375,
+    "security_estimate": {
+      "classical_bits": "192",
+      "quantum_bits": "~96"
+    }
+  },
+  "n=512_q=12289_stddev=0.5": {
+    "n": 512,
+    "q": 12289,
+    "stddev": 0.5,
+    "key_gen_time": 0.001857090950012207,
+    "encrypt_time": 0.0003467812538146973,
+    "decrypt_time": 2.401590347290039e-06,
+    "public_key_size": 1602328,
+    "ciphertext_size": 3179,
+    "error_rate": 0.855,
+    "memory_usage": 74.90625,
+    "security_estimate": {
+      "classical_bits": "192",
+      "quantum_bits": "~96"
+    }
+  },
+  "n=512_q=12289_stddev=0.75": {
+    "n": 512,
+    "q": 12289,
+    "stddev": 0.75,
+    "key_gen_time": 0.0019015944004058837,
+    "encrypt_time": 0.0003672025203704834,
+    "decrypt_time": 2.55584716796875e-06,
+    "public_key_size": 1602613,
+    "ciphertext_size": 3182,
+    "error_rate": 0.291,
+    "memory_usage": 74.91015625,
+    "security_estimate": {
+      "classical_bits": "192",
+      "quantum_bits": "~96"
+    }
+  },
+  "n=512_q=12289_stddev=1.0": {
+    "n": 512,
+    "q": 12289,
+    "stddev": 1.0,
+    "key_gen_time": 0.0020585272312164307,
+    "encrypt_time": 0.00039215779304504393,
+    "decrypt_time": 3.0167102813720704e-06,
+    "public_key_size": 1602829,
+    "ciphertext_size": 3177,
+    "error_rate": 0.96,
+    "memory_usage": 74.91015625,
+    "security_estimate": {
+      "classical_bits": "192",
+      "quantum_bits": "~96"
+    }
+  }
+}
